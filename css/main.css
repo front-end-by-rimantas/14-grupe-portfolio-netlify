@@ -1,7 +1,6 @@
 .container{
     display: inline-block;
-    width: 1140px;
-    margin: 0 calc( 50% - 570px );
-    background-color: yellow;
-    text-align: center;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 80px 0;
 }
