@@ -1,0 +1,28 @@
+.blog-box {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    background-color: var(--soft-background-color);
+}
+
+    .blog-box > .blog-img {
+        object-fit: cover;
+        max-width: 100%;
+    }
+
+    .author-section {
+        display: flex;
+        width: 90%;
+        background-color: #fff;
+        border-radius: 30px;
+        padding: 10px;
+    }
+
+        .author-section > img {
+            height: 50px;
+        }
+
+        .author-section > p {
+            display: inline-block;
+            float: right;
+        }
