@@ -1,0 +1,107 @@
+.container.get-in-touch{
+    background-color: var(--secondary-color);
+}
+    .get-in-touch > .row{
+        background-color: #fff;
+    }
+        .get-in-touch > .row > .get-in-touch-box{
+           display: inline-block;
+           padding:0 16px;
+           border-radius:5px;
+           margin-top:20px;
+        }  
+            .get-in-touch-box > h2{
+                display:inline-block;
+                font-size:32px;
+                text-transform: capitalize;
+                font-weight:lighter;
+                color:#9C27B0;
+                text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+                border-bottom:1px solid #F5F5F5;
+                position:relative;
+                margin-bottom: 50px;
+
+            }
+            .get-in-touch-box > h2>span{
+                color:#484848;
+
+            }
+            .get-in-touch-box > h2::before{
+                content:'';
+                border-bottom:1px solid #9C27B0;
+                width:40%;
+                position:absolute;
+                left:0;
+                bottom:0;
+            }
+            .get-in-touch-box > form{
+                display:inline-block;
+                width:100%;
+
+            }
+                .get-in-touch-box  form > .input-container{
+                    display:inline-block;
+                    width:100%;
+                    margin-bottom: 16px;;
+                }
+                .input-container >.fa {
+                    display: inline-block;
+                    text-align: center;
+                    width: 10%;
+                    float: left;
+                    padding: 15px 10px;
+                    background-color: #E9ECEF;
+                    height: 50px;
+                    color:#495057;
+                    border-top-left-radius:5px;
+                    border-bottom-left-radius:5px;
+                }
+             .input-container>.fa-comment{
+                    padding: 50px 10px 70px 10px;
+                }
+                    .input-container > input,
+                    .input-container > textarea{
+                        width: 90%;
+                        float: right;
+                        padding: 10px;
+                        display: inline-block;
+                        height: 50px;
+                        border:none;
+                        background-color: var(--secondary-color);
+                        line-height: 20px;
+                        color: #495057;
+                        font-size:18px;
+                        text-transform: capitalize;  
+                    } 
+                    .input-container > textarea {
+                        min-height:120px;
+                        max-height: 120px;
+                        resize:vertical;
+                        height:320px;
+                        padding:15px;
+                    }
+                    form:focus{
+                        outline-color: none;
+                    }
+
+                    .input-container > input::placeholder {
+                       
+                    }
+                .get-in-touch-box .btn{
+                    width:100%;
+                    border:1px solid #9C27B0;
+                    background-color: #9C27B0;
+                    color:#fff;
+                    cursor: pointer;
+                    font-weight: lighter;
+                    font-size: 15px;
+                    line-height: 18px;
+                    margin-right: 10px;
+                    text-align: center;
+                    padding: 15px 35px;
+                    letter-spacing: 1.5px;
+                    display: inline-block;
+                    text-transform: uppercase;
+                    border-radius:30px;
+                    margin-bottom:50px;
+                }
