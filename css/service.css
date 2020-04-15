@@ -17,17 +17,19 @@
     display: inline-block;
 }
 
-.services > .row > h1 {
+.services > .row > h2 {
     display: inline-block;
     text-align: center;
+    font-size: 40px;
+    line-height: 40px;
     font-weight: normal;
     margin-bottom: 20px;
-    margin-left: calc(50% - 77px);
+    margin-left: calc(50% - 118px);
     border-bottom: solid #fff 1px;
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
     position: relative;
 }
-    .services > .row > h1:before {
+    .services > .row > h2:before {
         content: '';
         border-bottom: solid 1px #9C27B0;
         width: 30%;
@@ -37,7 +39,7 @@
     }
 
 
-    .services .row > h1 > span{
+    .services .row > h2 > span{
         color: #9C27B0;
     }
     .services-box{
