@@ -38,25 +38,40 @@
             margin-bottom: 30px;
 
         }
-        .progress-bar:last-of-type{
+        .skills .progress-bar-row >.progress-bar:last-of-type{
             margin-bottom: 0;
         }
             .skills .progress-bar >.texts{
-                width:100%;
                 display:inline-block;
                 font-size: 14px;
                 font-weight: 600;
                 margin-bottom: 15px;
                 text-transform: uppercase;
-                font-family: 'Montserrat', sans-serif;
                 color: #232323;
+                position:relative
             }
-                .skills .texts > .labels{
-                    margin-bottom:15px;
-                }
-                /* .skills .texts > .value{
+                /* .skills .texts > .labels{
                     
                 } */
+                .skills .texts > .value{
+                    background-color: #fff;
+                    color: #9c27b0;
+                    margin-top: -20px;
+                    padding: 8px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    font-family: 'Raleway', sans-serif;
+                    left: 0;
+                    top:40px;
+                    position: absolute;
+                    z-index: 2;
+                    animation-name: value;
+                    animation-duration: 2s ;
+                    animation-delay:0s;
+                    animation-timing-function:ease-in-out ;
+                    animation-fill-mode: forwards;
+                }
+                
             .skills .progress-bar .bar{
                 width: 100%;
                 display: inline-block;
@@ -74,13 +89,14 @@
                 height: 100%;
                 background-color: #9C27B0;
                 border-radius: 4px;
+                position:relative;
                 animation-name: loading;
                 animation-duration: 2s;
                 animation-iteration-count: 1;
                 animation-direction: normal;
-                animation-delay: 2s;
+                animation-delay: 0s;
                 animation-fill-mode: forwards;
-                animation-timing-function: linear;
+                animation-timing-function: ease-in-out;
             }
             @keyframes loading{
                 0% {
@@ -89,6 +105,16 @@
                 }
                 100%{
                     width:100%;
+                }
+            
+            }
+            @keyframes value{
+                0% {
+                   left:0;
+            
+                }
+                100%{
+                    left:300px;
                 }
             
             }
