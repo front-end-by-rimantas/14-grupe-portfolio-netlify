@@ -1,15 +1,93 @@
 .container.resume{
-    
-}
-    .container.resume > .resume-box {
 
-    }    
-        .container.resume > .resume-box  p{
+}
+    .container.resume > .row > h2{
+        display: inline-block;
+        float: left;
+        background-color: red;
+        margin-left: calc( 50% - 120px );
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: normal;
+        margin-bottom: 50px;
+        margin-left: calc(50% - 118px);
+        border-bottom: solid grey 1px;
+        text-transform: capitalize;
+        text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+        position: relative;
+        }
+            .container.resume > .row > h2:before {
+                content: '';
+                border-bottom: solid 1px #9C27B0;
+                width: 30%;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+    .resume-content{
+        display: inline-block;
+        float: left;
+        width: 50%;
+        background-color: green;
+    }
+    
+        .resume-content:nth-last-of-type(2){
+            text-align: right;
+            background-color: blueviolet;
+        }
+        .resume-content > .resume-icons{
+            display: inline-block;
+            float: left;
+            width: 100%; 
             
         }
-        .container.resume > .resume-box  h5{
+            .resume-content > .resume-icons > i{
+            background-color: red;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            }
             
+        .resume-content > .resume-box{
+            display: inline-block;
+            float: left;
+            width: 50%;
+            margin: 0 25px;
+            padding-left: 40px;
+            background-color: yellow;
+            position: relative;
         }
-        .container.resume > .resume-box  h6{
-            
-        }
+            .resume-content > .resume-box.text-right{
+                background-color: pink;
+                padding-left: 0;
+                padding-right: 40px;
+                
+            width: 50%;
+                float: right;
+            }
+            .resume-content > .resume-box:after{
+                content: '';
+                height: 2px;
+                width: 500px;
+                color: orange;
+                position: absolute;
+                top: 0;
+                right: 10%;
+            }
+            .resume-content > .resume-box > p{
+                padding-bottom: 15px;
+            }
+            .resume-content > .resume-box > h5{
+                padding-bottom: 10px;
+                color: var(--main-color);
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 20px;
+            }
+            .resume-content > .resume-box > h6{
+                padding-bottom: 30px;
+                font-size: 12px;
+                line-height: 15px;
+            }
