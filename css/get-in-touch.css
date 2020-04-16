@@ -1,0 +1,180 @@
+.container.get-in-touch{
+    background-color: var(--soft-background-color);
+}
+    .get-in-touch > .row{
+        background-color: #fff;
+    }
+        .get-in-touch > .row > .get-in-touch-box{
+           display: inline-block;
+           padding: 0 16px;
+           border-radius: 5px;
+           margin-top: 20px;
+        }  
+            .get-in-touch-box > h2{
+                display: inline-block;
+                font-size: 32px;
+                text-transform: capitalize;
+                font-weight: lighter;
+                color:#9C27B0;
+                text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+                border-bottom: 1px solid #F5F5F5;
+                position: relative;
+                margin-bottom: 50px;
+            }
+            .get-in-touch-box > h2>span{
+                color:#484848;
+
+            }
+            .get-in-touch-box > h2::before{
+                content: '';
+                border-bottom: 1px solid #9C27B0;
+                width: 40%;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
+            .get-in-touch-box > form{
+                display: inline-block;
+                width: 100%;
+
+            }
+                .get-in-touch-box  form > .input-container{
+                    display: inline-block;
+                    width: 100%;
+                    margin-bottom: 16px;;
+                }
+                .input-container >.fa {
+                    display: inline-block;
+                    text-align: center;
+                    width: 10%;
+                    float: left;
+                    padding: 15px 10px;
+                    background-color: #E9ECEF;
+                    height: 50px;
+                    color:#495057;
+                    border-top-left-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                }
+             .input-container>.fa-comment{
+                    padding: 50px 10px 70px 10px;
+                }
+                    .input-container > input,
+                    .input-container > textarea{
+                        width: 90%;
+                        float: right;
+                        padding: 10px;
+                        display: inline-block;
+                        height: 50px;
+                        border: none;
+                        background-color: var(--soft-background-color);
+                        line-height: 20px;
+                        color: #495057;
+                        font-size: 18px;
+                        text-transform: capitalize;  
+                    } 
+                    .input-container > textarea {
+                        min-height: 120px;
+                        max-height: 120px;
+                        resize: vertical;
+                        height: 320px;
+                        padding: 15px;
+                    }
+                    form:focus{
+                        outline-color: none;
+                    }
+                .get-in-touch-box .btn{
+                    width:100%;
+                    border:1px solid #9C27B0;
+                    background-color: #9C27B0;
+                    color:#fff;
+                    cursor: pointer;
+                    font-weight: lighter;
+                    font-size: 15px;
+                    line-height: 18px;
+                    margin-right: 10px;
+                    text-align: center;
+                    padding: 15px 35px;
+                    letter-spacing: 1.5px;
+                    display: inline-block;
+                    text-transform: uppercase;
+                    border-radius: 30px;
+                    margin-bottom: 50px;
+                }
+        .get-in-touch > .row .contact-info{
+            position: relative;
+            background: url(../img/contact.jpg);
+            background-size: cover;
+            margin-left: 30px;
+            margin-right: 0;
+            padding: 50px 40px 84px 40px;
+        }
+        .get-in-touch > .row .contact-info::before{
+            content:'';
+            background: rgba(156, 39, 176, 0.9);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+            .get-in-touch .contact-info >h2{
+                display: inline-block;
+                color:#fff;
+                font-size: 32px;
+                font-weight: normal;
+                text-transform: capitalize;
+                position: relative;
+                margin-bottom: 30px;
+            }
+            .get-in-touch .contact-info p{
+                display: inline-block;
+                color:#fff;
+                font-size: 16px;
+                font-weight: normal;
+                position: relative;
+                line-height: 26px;
+                margin-bottom: 20px;
+            }
+            .contact-info .contact-info-box{
+                display: inline-block;
+                width: 100%;
+                position: relative;
+                margin-bottom: 10px;
+                color:#fff;
+            }
+            .contact-info .contact-info-box >.fa{
+                display: inline-block;
+                position: relative;
+                color:#fff;
+                border: 1px solid #fff;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                text-align: center;
+                line-height: 37px;
+                margin: 5px 5px 5px 0;
+                font-size: 20px;
+            }
+            .contact-info .contact-info-box p{
+                display: inline-block;
+                position: relative;
+                color:#fff;
+                text-transform: uppercase;
+                font-size: 16px;
+                margin: 15px 0;
+                line-height: 20px;    
+            }
+
+@media(max-width:1100px){
+    .contact-info .contact-info-box >p {
+        width:70%;
+
+    }
+    .input-container >.fa{
+        padding: 20px 5px;
+    }
+    .input-container>.fa-comment{
+        padding: 50px 5px 70px 5px;
+    }
+}
