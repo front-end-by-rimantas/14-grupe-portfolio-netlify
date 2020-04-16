@@ -1,5 +1,5 @@
 .container.get-in-touch{
-    background-color: var(--secondary-color);
+    background-color: var(--soft-background-color);
 }
     .get-in-touch > .row{
         background-color: #fff;
@@ -20,7 +20,6 @@
                 border-bottom: 1px solid #F5F5F5;
                 position: relative;
                 margin-bottom: 50px;
-
             }
             .get-in-touch-box > h2>span{
                 color:#484848;
@@ -67,7 +66,7 @@
                         display: inline-block;
                         height: 50px;
                         border: none;
-                        background-color: var(--secondary-color);
+                        background-color: var(--soft-background-color);
                         line-height: 20px;
                         color: #495057;
                         font-size: 18px;
@@ -107,7 +106,7 @@
             background-size: cover;
             margin-left: 30px;
             margin-right: 0;
-            padding: 50px 40px 80px 40px;
+            padding: 50px 40px 84px 40px;
         }
         .get-in-touch > .row .contact-info::before{
             content:'';
