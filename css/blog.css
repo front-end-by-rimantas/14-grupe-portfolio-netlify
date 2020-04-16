@@ -141,9 +141,11 @@
         width: 950px;
         margin-left: calc(50% - 475px);
     }
+}
 
 @media (max-width: 950px) {
     .blog > .row > .blog-box {
         width: 650px;
         margin-left: calc(50% - 325px);
     }
+}
