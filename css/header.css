@@ -1,0 +1,47 @@
+.header {
+    display: inline-block;
+    height: 60px;
+    background: none;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+    .nav-bar {
+        display: inline-block;
+        float: left;
+        width: 100%;
+        padding: 10px 40px;
+    }
+
+        .nav-bar > img {
+            display: inline-block;
+            float: left;
+            height: 40px;
+            margin-left: 90px;
+        }
+
+        .nav-links {
+            display: inline-block;
+            float: right;
+            margin-right: 50px;
+        }
+
+            .nav-bar > .nav-links > a {
+                display: inline-block;
+                float: left;
+                padding: 0 20px;
+                font-family: 'Roboto', sans-serif;
+                color: #e6e6e6;
+                text-decoration: none;
+                text-transform: capitalize;
+                font-size: 15px;
+                line-height: 50px;
+            }
+                .nav-links > a:first-child{
+                    color: var(--main-color);
+                }
+                .nav-links > a:hover {
+                    color: var(--main-color);
+                    transition: 0.3s;
+                }
