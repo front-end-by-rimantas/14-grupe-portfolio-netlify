@@ -1,10 +1,23 @@
-.header {
+header {
     display: inline-block;
     height: 60px;
     background: none;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    z-index: 99;
+    z-index: 100;
+}
+
+header.active {
+    display: inline-block;
+    height: 60px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
 }
 
     .nav-bar {
@@ -12,6 +25,10 @@
         float: left;
         width: 100%;
         padding: 10px 40px;
+    }
+
+    .nav-bar.active-links {
+        color: #111;
     }
 
         .nav-bar > img {
@@ -36,7 +53,7 @@
                 text-decoration: none;
                 text-transform: capitalize;
                 font-size: 15px;
-                line-height: 50px;
+                line-height: 45px;
             }
                 .nav-links > a:first-child{
                     color: var(--main-color);
@@ -45,3 +62,35 @@
                     color: var(--main-color);
                     transition: 0.3s;
                 }
+
+                .nav-bar > .nav-links > a.ascroll {
+                    display: inline-block;
+                    float: left;
+                    padding: 0 20px;
+                    font-family: 'Roboto', sans-serif;
+                    color: #111;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    font-size: 15px;
+                    line-height: 45px;
+                }
+                    .nav-links > a:first-child{
+                        color: var(--main-color);
+                    }
+                    .nav-links > a:hover {
+                        color: var(--main-color);
+                        transition: 0.3s;
+                    }
+
+                
+/* .active-links {
+                display: inline-block;
+                float: left;
+                padding: 0 20px;
+                font-family: 'Roboto', sans-serif;
+                color: #111;
+                text-decoration: none;
+                text-transform: capitalize;
+                font-size: 15px;
+                line-height: 45px;
+} */
