@@ -1,6 +1,6 @@
 "use strict";
 
-const nav = ['Home','About', 'Services', 'Portfolio', 'Client', 'Blog', 'Contact'];
+const nav = ['home', 'about', 'services', 'portfolio', 'client', 'blog', 'contact'];
   
 
 
