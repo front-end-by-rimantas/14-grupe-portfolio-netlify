@@ -13,7 +13,7 @@
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
     position: relative;
     }
-        .container.resume > .row > h2:before {
+        .container.resume > .row > h2::before {
             content: '';
             border-bottom: solid 1px #9C27B0;
             width: 30%;
@@ -76,7 +76,7 @@
             color: #4b4b4b;
             position: relative;
         }
-            .resume-content > .resume-box > .left:before{
+            .resume-content > .resume-box::before{
                 content: '';
                 height: 20px;
                 border-radius: 50%;
@@ -86,7 +86,7 @@
                 top: 0;
                 right: -60px;
             }
-            .resume-content > .resume-box > .left:after{
+            .resume-content > .resume-box::after{
                 content: '';
                 height: 10px;
                 border-radius: 50%;
@@ -96,7 +96,7 @@
                 top: 5px;
                 right: -55.5px;
             }
-            .resume-content > .resume-box > .right:before{
+            .resume-content > .resume-box::before{
                 content: '';
                 height: 20px;
                 width: 20px;
@@ -106,7 +106,7 @@
                 top: 0;
                 right: 243px;
             }
-            .resume-content > .resume-box > .right:after{
+            .resume-content > .resume-box::after{
                 content: '';
                 height: 10px;
                 width: 10px;
@@ -132,13 +132,33 @@
             text-transform: capitalize;
             color: #4b4b4b;
         }
+        .text-right:before{
+            content: '';
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            background-color: green;
+            position: absolute;
+            top: 20;
+            right: -11px;
+        }
+        .text-left:before{
+            content: '';
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            background-color: yellow;
+            position: absolute;
+            top: 40px;
+            right: 244px;
+        }
         @media (max-width: 900px){
-            .resume-content > .resume-box > .right:before{
+            .resume-content > .resume-box::before{
                 position: absolute;
                 top: 0;
                 right: 200px;
             }
-            .resume-content > .resume-box > .right:after{
+            .resume-content > .resume-box::after{
                 position: absolute;
                 top: 5px;
                 right: 205px;
@@ -147,12 +167,12 @@
         @media (max-width: 700px){
 
         
-            .resume-content > .resume-box > .right:before{
+            .resume-content > .resume-box::before{
                 position: absolute;
                 top: 0;
                 right: 245px;
             }
-            .resume-content > .resume-box > .right:after{
+            .resume-content > .resume-box::after{
                 position: absolute;
                 top: 5px;
                 right: 250px;
@@ -167,12 +187,12 @@
                 border-left: solid #F4F5F8 2px;
             }
         
-            .resume-content > .resume-box > .left:before{
+            .resume-content > .resume-box::before{
                 position: absolute;
                 top: 0;
                 left: -60px;
             }
-            .resume-content > .resume-box > .left:after{
+            .resume-content > .resume-box::after{
                 
                 position: absolute;
                 top: 5px;
@@ -187,13 +207,13 @@
             }
         }
         @media (max-width: 400px){
-            .resume-content > .resume-box > .right:before{
+            .resume-content > .resume-box::before{
                 
                 position: absolute;
                 top: 0;
                 right: 220px;
             }
-            .resume-content > .resume-box > .right:after{
+            .resume-content > .resume-box::after{
                 
                 position: absolute;
                 top: 5px;
@@ -221,22 +241,22 @@
             .resume-content > .resume-icons.right{ 
                     padding-left: 0px;
             }
-            .resume-content > .resume-box > .left:before{
+            .resume-content > .resume-box::before{
                 content: '';
                 display: none;
                 
             }
-            .resume-content > .resume-box > .left:after{
+            .resume-content > .resume-box::after{
                 content: '';
                 display: none;
                 
             }
-            .resume-content > .resume-box > .right:before{
+            .resume-content > .resume-box::before{
                 content: '';
                 display: none;
                 
             }
-            .resume-content > .resume-box > .right:after{
+            .resume-content > .resume-box::after{
                 content: '';
                 display: none;
                 
