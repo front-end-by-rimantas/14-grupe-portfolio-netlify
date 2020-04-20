@@ -6,7 +6,9 @@ function renderHeader() {
     HTML = `<div class="header">
         <nav class="nav-bar col-12">
             <div class="img"></div>
-            <div class="nav-links">
+            <div class="nav-links"></div>
+            <div class="menu-btn">
+                <i class="fa fa-bars"></i>
             </div>
         </nav>
     </div>`;
@@ -25,5 +27,22 @@ function renderNav(nav) {
 }
 
 
+
 renderHeader();
-renderNav(nav)
+renderNav(nav);
+
+const menuBtn = document.querySelector('.menu-btn');
+const menuNav = document.querySelector('.nav-links');
+let menuOpen = false;
+
+menuBtn.addEventListener('click', () => {
+    if(!menuOpen) {
+        menuBtn.classList.add('open');
+        menuNav.classList.add('open');
+        menuOpen = true;
+    } else {
+        menuBtn.classList.remove('open');
+        menuNav.classList.remove('open');
+        menuOpen = false;
+    }
+});
