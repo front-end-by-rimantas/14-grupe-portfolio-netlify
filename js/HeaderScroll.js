@@ -9,12 +9,20 @@ window.onscroll = function() {
 
     if (top >= 500) {
         header.classList.add('active');
-        navLink.classList.add('nav-b')
+
+        for(let i = 0; i<navLink.length;i++){
+            navLink[i].classList.add('nav-b')
+        };
+
         headerImg.classList.add('logo2');
 
     } else {
         header.classList.remove('active');
-        navLink.classList.remove('nav-b');
+        
+        for(let i = 0; i<navLink.length;i++){
+            navLink[i].classList.remove('nav-b')
+        };
+
         headerImg.classList.remove('logo2');
     }
 

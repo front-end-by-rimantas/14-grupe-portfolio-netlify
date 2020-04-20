@@ -20,6 +20,7 @@ function renderNav(nav) {
     for ( let i=0; i<nav.length; i++ ) {
         HTML += `<a class="nav-a" href="#${nav[i]}">${nav[i]}</a>`
     }
+
     return document.querySelector('.nav-links').innerHTML = HTML;
 }
 
