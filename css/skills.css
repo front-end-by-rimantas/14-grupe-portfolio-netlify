@@ -1,0 +1,122 @@
+.container.skills{
+    background-color: var(--soft-background-color);
+    padding:100px 0;
+    font-family:'Montserrat, sans-serif';
+}
+    .skills > .row > h2{
+        display: inline-block;
+        font-size: 35px;
+        border-bottom: 1px solid #fff;
+        text-transform: capitalize;
+        color:#9C27B0;
+        text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+        position: relative;
+        margin-bottom: 50px;
+        font-weight:800;
+        font-family:'Montserrat', sans-serif;
+        padding-bottom: 10px;
+        margin-left: calc(50% - 118px);
+        text-align:center;
+    }
+    .skills h2 > span{
+        color:#484848;
+    }
+    .skills > .row > h2::before{
+        content: '';
+        border-bottom: 1px solid #9C27B0;
+        width: 40%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .skills .progress-bar-row{
+        overflow:hidden;
+        }
+        .skills .progress-bar-row > .progress-bar{
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .progress-bar::before {
+            content: "";
+            display: block;
+            position: absolute;
+            background-color: #fff;
+            border-radius: 5px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+        }
+            .progress-bar .labels {
+                display:inline-block;
+                font-size: 14px;
+                line-height: 30px;
+                text-transform: uppercase;
+                padding-bottom: 4px;
+                font-weight: 600;
+                color: #232323;   
+                }
+            .progress-bar .skill-bar {
+                width: 100%;
+                height: 5px;
+                display: block;
+                position: relative;
+                left: 0;
+                background-color: #9C27B0;
+                border-radius: 4px;
+            }
+            .progress-bar .skill-bar.skill-bar-70 {
+                width: 70%;
+            }
+            .progress-bar .skill-bar.skill-bar-75 {
+                width: 75%;
+            }
+            .progress-bar .skill-bar.skill-bar-80 {
+                width: 80%;
+            }
+            .progress-bar .skill-bar.skill-bar-85 {
+                width: 85%;
+            }
+            .progress-bar .skill-bar.skill-bar-90 {
+                width: 90%;
+            }
+            .progress-bar .skill-bar.skill-bar-95 {
+                width: 95%;
+            }
+            .slideInLeft {
+              animation-name: slideInLeft;
+              animation-iteration-count: 1;
+              animation-delay: 0s;
+              animation-fill-mode: both;
+              animation-duration: 1s;
+            }
+                .progress-bar .skill-bar .skill-count {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    background-color: #fff;
+                    color: #9c27b0;
+                    margin-top: -15px;
+                    padding: 8px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    font-family: 'Raleway', sans-serif;
+                    border-radius: 4px;
+                    z-index: 2;
+                }
+                .slideInLeft {
+                    
+                    animation-name: slideInLeft;
+                    visibility: visible;
+                  }
+          @keyframes slideInLeft {
+            from {
+            transform: translate3d(-100%, 0, 0);
+            visibility: visible;
+            }
+            to {
+            transform: translate3d(0, 0, 0);
+            }
+          }  
