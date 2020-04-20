@@ -114,7 +114,7 @@
                 background-color: #2E353E;
                 position: absolute;
                 top: 2.5px;
-                left: -55.4px;
+                left: -55.5px;
             }
         .resume-content > .resume-box > h5{
             padding-bottom: 5px;
@@ -141,7 +141,7 @@
             .resume-content > .resume-box > .right::after{
                 position: absolute;
                 top: 5px;
-                left: -55.4px;
+                left: -56.4px;
             }
             .resume-content > .resume-box > .left::before{
                 position: absolute;
@@ -152,7 +152,7 @@
                 
                 position: absolute;
                 top: 6.4px;
-                right: -57px;
+                right: -56.5px;
             }
         }
         @media (max-width: 700px){
