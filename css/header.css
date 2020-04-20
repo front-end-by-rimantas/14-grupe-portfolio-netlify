@@ -66,13 +66,14 @@ header.active {
             .nav-links > .nav-a {
                 display: inline-block;
                 float: left;
-                padding: 0 20px;
+                padding: 0 15px;
                 font-family: 'Roboto', sans-serif;
                 color: #e6e6e6;
                 text-decoration: none;
                 text-transform: capitalize;
                 font-size: 15px;
                 line-height: 45px;
+                cursor: pointer;
             }
                 .nav-links > .nav-a:first-child{
                     color: var(--main-color);
@@ -102,3 +103,45 @@ header.active {
                         transition: 0.3s;
                     }
                     
+@media (max-width: 930px) {
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+        
+    }
+    
+    .nav-links > .nav-a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        line-height: 30px;
+    } 
+
+    .nav-links .nav-a.nav-b {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: #fff;
+        padding: 0 20px;
+        font-family: 'Roboto', sans-serif;
+        color: #111;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 15px;
+        line-height: 55px;
+    }
+
+}
+  
+   
