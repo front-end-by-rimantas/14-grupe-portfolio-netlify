@@ -82,7 +82,7 @@
                     border-radius: 4px;
                     z-index: 2;
                 }
-                  .bar-animation {
+                  .progress-bar-animation {
                     animation: loading 3s 1;
                 }
 

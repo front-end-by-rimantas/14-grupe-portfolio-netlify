@@ -16,7 +16,7 @@ function renderSkills (data) {
     return HTML;
 }
 
-function isInView(el) {
+function isInViewport(el) {
     let elBottom = el.getBoundingClientRect().bottom - window.innerHeight;
     if(elBottom < 0) {
         return true;
@@ -28,9 +28,9 @@ function isInView(el) {
 function barAnimation() {
     let array = document.getElementsByClassName('skill-bar');
     for(let i=0; i<array.length; i++) {
-        if(isInView(array[i])) {
+        if(isInViewport(array[i])) {
             array[i].style.visibility = 'visible';
-            array[i].classList.add('bar-animation');
+            array[i].classList.add('progress-bar-animation');
         }
     }
 }
