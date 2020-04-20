@@ -1,7 +1,7 @@
 "use strict";
 
 const header = document.querySelector('header');
-const navLink = document.querySelector('.nav-a');
+const navLink = document.querySelectorAll('.nav-a');
 const headerImg = document.querySelector('.nav-bar .img');
 
 window.onscroll = function() {
