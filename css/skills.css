@@ -38,7 +38,7 @@
             margin-bottom: 30px;
             position: relative;
         }
-        .progress-bar::before {
+        .skills .progress-bar-row >.progress-bar::before {
             content: "";
             display: block;
             position: absolute;
@@ -49,7 +49,7 @@
             right: 0;
             height: 5px;
         }
-            .progress-bar .labels {
+            .skills .progress-bar >.labels {
                 display:inline-block;
                 font-size: 14px;
                 line-height: 30px;
@@ -66,31 +66,7 @@
                 left: 0;
                 background-color: #9C27B0;
                 border-radius: 4px;
-            }
-            .progress-bar .skill-bar.skill-bar-70 {
-                width: 70%;
-            }
-            .progress-bar .skill-bar.skill-bar-75 {
-                width: 75%;
-            }
-            .progress-bar .skill-bar.skill-bar-80 {
-                width: 80%;
-            }
-            .progress-bar .skill-bar.skill-bar-85 {
-                width: 85%;
-            }
-            .progress-bar .skill-bar.skill-bar-90 {
-                width: 90%;
-            }
-            .progress-bar .skill-bar.skill-bar-95 {
-                width: 95%;
-            }
-            .slideInLeft {
-              animation-name: slideInLeft;
-              animation-iteration-count: 1;
-              animation-delay: 0s;
-              animation-fill-mode: both;
-              animation-duration: 1s;
+                visibility: hidden;
             }
                 .progress-bar .skill-bar .skill-count {
                     position: absolute;
@@ -106,17 +82,10 @@
                     border-radius: 4px;
                     z-index: 2;
                 }
-                .slideInLeft {
-                    
-                    animation-name: slideInLeft;
-                    visibility: visible;
-                  }
-          @keyframes slideInLeft {
-            from {
-            transform: translate3d(-100%, 0, 0);
-            visibility: visible;
-            }
-            to {
-            transform: translate3d(0, 0, 0);
-            }
-          }  
+                  .bar-animation {
+                    animation: loading 3s 1;
+                }
+
+                @keyframes loading {
+                    0% {width: 0;}
+                }
