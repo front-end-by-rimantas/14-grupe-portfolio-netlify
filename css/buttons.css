@@ -22,7 +22,6 @@
             font-size: 13px;
             font-family: 'Roboto', sans-serif;
             margin-right: 10px;
-            
             border-radius: 30px;
             padding: 15px 30px;
             text-transform: uppercase;
@@ -56,41 +55,3 @@
             a.btn.btn1:hover {
                 color: #333;
             }
-
-
-
-
-
-
-
-
-/* .btn {
-    display: inline-block;
-    text-decoration: none;
-    border:1px solid #9C27B0;
-    background: #9C27B0;
-    color:#fff;
-    text-transform: uppercase;
-    border-radius: 30px;
-    padding: 15px 30px;
-    cursor:pointer;
-    margin-right: 10px;
-}
-
-.btn:hover{
-    color: #333;
-    border:1px solid #fff;
-    animation: buttons 0.8s ease-in forwards;
-}
-
-@keyframes buttons {
-    0% {
-        background-color: #fff;
-    }
-    50% {
-        background-color: #9C27B0;
-    }
-    100% {
-        background-color: #fff;
-    }
-}  */
