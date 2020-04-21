@@ -29,16 +29,19 @@
         left: 0;
         bottom: 0;
     }
-    .skills .progress-bar-row{
+    .skills .progress-bar-row,
+    .skills .progress-bar-row2{
         overflow:hidden;
         }
-        .skills .progress-bar-row > .progress-bar{
+        .skills .progress-bar-row > .progress-bar,
+        .skills .progress-bar-row2 > .progress-bar{
             display: inline-block;
             width: 100%;
             margin-bottom: 30px;
             position: relative;
         }
-        .skills .progress-bar-row >.progress-bar::before {
+        .skills .progress-bar-row >.progress-bar::before,
+        .skills .progress-bar-row2 >.progress-bar::before {
             content: "";
             display: block;
             position: absolute;
@@ -71,7 +74,7 @@
                 .progress-bar .skill-bar .skill-count {
                     position: absolute;
                     top: 0;
-                    right: 0;
+                    right: -1px;
                     background-color: #fff;
                     color: #9c27b0;
                     margin-top: -15px;

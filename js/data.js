@@ -22,23 +22,23 @@ const skills = [
     },
 ];
 
-// const skills2 =[
-//     {
-//         title:'HTML/CSS',
-//         value: 95
-//     },
-//     {
-//         title:'js/jquery',
-//         value: 80
-//     },
-//     {
-//         title:'php/wordpress',
-//         value: 75
-//     },
-//     {
-//         title:'Photoshop',
-//         value: 95
-//     },
-// ];
+const skills2 =[
+    {
+        title:'HTML/CSS',
+        value: 95
+    },
+    {
+        title:'js/jquery',
+        value: 80
+    },
+    {
+        title:'php/wordpress',
+        value: 75
+    },
+    {
+        title:'Photoshop',
+        value: 95
+    },
+];
 
 
