@@ -8,28 +8,34 @@
     <link rel="stylesheet" href="./css/home-page.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
         <!-- HEADER -->
         <header></header>
         <!-- HERO -->
-        <div class="container hero col-12 col-md-12 col-xs-12">
+        <div id="home" class="container hero col-12 col-md-12 col-xs-12">
             <div class="row">
                 <div class="hero-elements">
                     <h3>Welcome</h3>
                     <h2>I am john doe</h2>
-                    <p>UI/UX designer</p>
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>                   
-                    <a href="#"><i class="fa fa-behance"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-futbol-o"></i></a>
+
+                    <div class="around-text-animation">
+                    <p id="text-animation"></p>
+                    </div>
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>                   
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-futbol-o"></i></a>
+                    </div>  
                 </div>
             </div>
         </div>
         <!-- ABOUT -->
-        <div class="container about">
+        <div id="about" class="container about">
             <div class="row">
                 <div class=" photo col-5 col-md-6 col-xs-12">
                     <img src="./img/about.jpg" alt="John Doe">
@@ -55,19 +61,72 @@
                         </div>
                     </div>
                     <div class="buttons">
-                        <a class="btn1" href="#">Download resume</a>
-                        <a class="btn1" href="#">Hire me</a>
+                        <div class="middle">
+                            <a class="btn btn1" href="#">Download resume</a>
+                            <a class="btn btn1" href="#">Hire me</a>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
         </div>
         <!-- SKILLS -->
-        <div class="container skills">
-            <div class="row">Skills</div>
+        <div class="container skills" id="skills">
+            <div class="row">
+                <h2>My <span>skills</span></h2>
+                <div class="progress-bar-row col-6 col-lg-6 col-md-6 col-xs-12 ">
+                </div>
+                <div class="progress-bar-row2 col-6 col-lg-6 col-md-6 col-xs-12 ">
+                </div>
+            </div>
         </div>
         <!-- RESUME -->
         <div class="container resume">
-            <div class="row">Resume</div>
+            <div class="row">
+                <h2><span>My</span> resume</h2>
+                <div class="resume-content col-sm-6 col-xs-12">
+                    <div class="resume-icons">
+                        <i class="fa fa-book"></i>
+                    </div>
+                    <div class="resume-box text-right">
+                        
+                        <p class="left">Jan 2004 - Dec 2006</p>
+                        <h5>Specialization course</h5>
+                        <h6>University Of Studies, Poland, Cracow</h6>
+                        
+                        
+                        <p class="left">Jan 2004 - Dec 2006</p>
+                        <h5>Specialization course</h5>
+                        <h6>University Of Studies, Poland, Cracow</h6>
+                    
+                        
+                        <p class="left">Jan 2004 - Dec 2006</p>
+                        <h5>Specialization course</h5>
+                        <h6>University Of Studies, Poland, Cracow</h6>
+                    </div>
+                </div>
+                <div class="resume-content col-sm-6 col-xs-12">
+                    <div class="resume-icons right">
+                        <i class="fa fa-suitcase"></i> 
+                    </div>
+                    <div class="resume-box">
+                        
+                        <p class="right">Jan 2004 - Dec 2006</p>
+                        <h5>Specialization course</h5>
+                        <h6>University Of Studies, Poland, Cracow</h6>
+                        
+                    
+                        <p class="right">Jan 2004 - Dec 2006</p>
+                        <h5>Specialization course</h5>
+                        <h6>University Of Studies, Poland, Cracow</h6>
+                    
+                    
+                        <p class="right">Jan 2004 - Dec 2006</p>
+                        <h5>Specialization course</h5>
+                        <h6>University Of Studies, Poland, Cracow</h6>
+                    </div>  
+                </div>  
+            </div>
         </div>
         <!-- ACHIEVEMENTS -->
         <div class="container achievements">
@@ -99,7 +158,7 @@
             </div>
         </div>
         <!-- SERVICES -->
-        <div class="container services">
+        <div id="services" class="container services">
             <div class="row">
             <h2><span>My</span> Services</h2>
             </div>
@@ -137,15 +196,48 @@
             </div>
         </div>
         <!-- PORTFOLIO -->
-        <div class="container portfolio">
+        <div id="portfolio" class="container portfolio">
             <div class="row">Portfolio</div>
         </div>
         <!-- REVIEWS -->
-        <div class="container reviews">
-            <div class="row">Reviews</div>
+        <div id="client" class="container reviews">
+            <div class="row">
+                <div class="review-box col-10 m-l-1 m-r-2  col-sm-12 m-l-sm-0 m-r-sm-0 col-xs-12 m-l-xs-0 m-r-xs-0">
+                    <div class="review-box-outer">
+                        <div class="review-inner-box">
+                            <div class="review-single-box">
+                                <p class="review-title">Awesome work</p>
+                                <div class="rating-box"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                <p class="review-description">"Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur."</p>
+                                <p class="reviewer">Jack Daniel</p>
+                                <p class="reviewer-position">Graphic Designer</p>
+                            </div>
+                            <div class="review-single-box">
+                                <p class="review-title">Awesome work</p>
+                                <div class="rating-box"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                <p class="review-description">"Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur."</p>
+                                <p class="reviewer">Jack Daniel</p>
+                                <p class="reviewer-position">Graphic Designer</p>
+                            </div>
+                            <div class="review-single-box">
+                                <p class="review-title">Awesome work</p>
+                                <div class="rating-box"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                <p class="review-description">"Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur."</p>
+                                <p class="reviewer">Jack Daniel</p>
+                                <p class="reviewer-position">Graphic Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-navigation-box">
+                        <div class="navigation-bar first-bar activeBar"></div>
+                        <div class="navigation-bar second-bar"></div>
+                        <div class="navigation-bar third-bar"></div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- BLOG -->
-        <div class="container blog">
+        <div id="blog" class="container blog">
             <div class="row">
                 <h2><span>Latest</span> Blog</h2>
             </div>
@@ -194,7 +286,7 @@
             </div>
         </div>
         <!-- GET IN TOUCH -->
-        <div class="container get-in-touch">
+        <div id="contact" class="container get-in-touch">
             <div class="row">
                 <div class="get-in-touch-box col-7 col-md-6 col-xs-12">
                     <h2>Get <span>in touch</span></h2>
@@ -211,7 +303,11 @@
                             <i class="fa fa-comment"></i>
                             <textarea name="message" placeholder="Message for me"></textarea>
                         </div>
-                        <div class="btn">Send message</div>
+                        <div class="buttons">
+                            <div class="middle">
+                                <a class="btn btn1" href="#" style="width: 100%; text-align: center">Send Message</a>
+                            </div>
+                        </div>
                     </form>
                 </div>
                 <div class="contact-info col-5 col-md-6 col-xs-12">
@@ -235,6 +331,17 @@
             </div>
         </div>
         <!-- FOOTER -->
-        <footer></footer>
+        <footer>
+            <h6>
+                Copy right © By a-shawky 2017 | All Rights reserved.
+            </h6>
+        </footer>
+
+        <script src="./js/data.js"></script>
+        <script src="./js/heroes.js"></script>
+        <script src="./js/header.js"></script>
+        <script src="./js/HeaderScroll.js"></script>
+        <script src="./js/reviews.js"></script>
+        <script src="./js/progress-bar.js"></script>
 </body>
 </html>

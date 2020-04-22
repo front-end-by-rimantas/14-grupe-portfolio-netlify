@@ -1,0 +1,256 @@
+
+.container.resume > .row > h2{
+    display: inline-block;
+    float: left;
+    margin-left: calc( 50% - 120px );
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: normal;
+    margin-bottom: 50px;
+    margin-left: calc(50% - 118px);
+    border-bottom: solid #F4F5F8 1px;
+    text-transform: capitalize;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+    position: relative;
+    }
+        .container.resume > .row > h2::before {
+            content: '';
+            border-bottom: solid 1px #9C27B0;
+            width: 30%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+.resume-content{
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+    .resume-content:nth-last-of-type(2){
+        text-align: right;
+    }
+    .resume-content > .resume-icons{
+        display: inline-block;
+        float: left;
+        width: 100%; 
+        padding-right: 10px;
+        
+    }
+    .resume-content > .resume-icons.right{ 
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+        .resume-content > .resume-icons > i{
+        background-color: #2E353E;
+        color: #fff;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        }
+        
+    .resume-content > .resume-box{
+        display: inline-block;
+        float: left;
+        margin: 0 30px;
+        padding-top: 40px;
+        padding-left: 50px;
+        border-left: solid #F4F5F8 2px;
+        position: relative;
+    }
+        .resume-content > .resume-box.text-right{
+            padding-left: 0;
+            padding-right: 50px;
+            border-right: solid #F4F5F8 2px;
+            border-left: none;
+            float: right;
+        }
+        
+        .resume-content > .resume-box > p{
+            padding-bottom: 15px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #4b4b4b;
+            position: relative;
+        }
+            .resume-content > .resume-box > .left::before{
+                content: '';
+                height: 15px;
+                border-radius: 50%;
+                width: 15px;
+                background-color: #D6B161;
+                position: absolute;
+                top: 0;
+                right: -57.5px;
+            }
+            .resume-content > .resume-box > .left::after{
+                content: '';
+                height: 10px;
+                border-radius: 50%;
+                width: 10px;
+                background-color: #2E353E;
+                position: absolute;
+                top: 2.5px;
+                right: -55.4px;
+            }
+            .resume-content > .resume-box > .right::before{
+                content: '';
+                height: 15px;
+                width: 15px;
+                border-radius: 50%;
+                background-color: #D6B161;
+                position: absolute;
+                top: 0;
+                left: -58px;
+            }
+            .resume-content > .resume-box > .right::after{
+                content: '';
+                height: 10px;
+                width: 10px;
+                border-radius: 50%;
+                background-color: #2E353E;
+                position: absolute;
+                top: 2.5px;
+                left: -55.5px;
+            }
+        .resume-content > .resume-box > h5{
+            padding-bottom: 5px;
+            color: var(--main-color);
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .resume-content > .resume-box > h6{
+            padding-bottom: 30px;
+            font-size: 13px;
+            line-height: 15px;
+            font-weight: 600;
+            text-transform: capitalize;
+            color: #4b4b4b;
+        }
+        @media (max-width: 900px){
+            .resume-content > .resume-box > .right::before{
+                position: absolute;
+                top: 2.5px;
+                left: -59px;
+            }
+            .resume-content > .resume-box > .right::after{
+                position: absolute;
+                top: 5px;
+                left: -56.4px;
+            }
+            .resume-content > .resume-box > .left::before{
+                position: absolute;
+                top: 4px;
+                right: -59px;
+            }
+            .resume-content > .resume-box > .left::after{
+                
+                position: absolute;
+                top: 6.4px;
+                right: -56.5px;
+            }
+        }
+        @media (max-width: 700px){
+
+        
+            .resume-content > .resume-box > .right::before{
+                position: absolute;
+                top: 0;
+                left: -58px;
+            }
+            .resume-content > .resume-box > .right::after{
+                position: absolute;
+                top: 2.5px;
+                left: -55.5px;
+            }
+
+            .resume-content > .resume-box.text-right{
+                margin-right: 0;
+                padding-left: 50px;
+                text-align: left;
+                float: left;
+                border-right: none;
+                border-left: solid #F4F5F8 2px;
+            }
+        
+            .resume-content > .resume-box > .left::before{
+                position: absolute;
+                top: 0px;
+                left: -59px;
+            }
+            .resume-content > .resume-box > .left::after{
+                
+                position: absolute;
+                top: 2.5px;
+                left: -56.5px;
+            }
+            .resume-content > .resume-icons > i{
+                margin-left: 10px;
+                float: left;
+                }
+            .resume-content > .resume-icons.right{ 
+                    padding-left: 0px;
+            }
+        }
+        @media (max-width: 400px){
+            .resume-content > .resume-box > .right::before{
+                
+                position: absolute;
+                top: 0;
+                left: -10px;
+            }
+            .resume-content > .resume-box > .right::after{
+                
+                position: absolute;
+                top: 5px;
+                left: -10px;
+            }
+        }
+        @media (max-width: 400px){
+            .resume-content > .resume-box{
+                padding-bottom: 15px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: #4b4b4b;
+                border-top: solid #F4F5F8 2px;
+                border-left: none;
+            }
+            .resume-content > .resume-box.text-right{
+                border-left: none;
+            }
+        
+            .resume-content > .resume-icons > i{
+                margin-left: calc(50% - 40px);
+                
+                }
+            .resume-content > .resume-icons.right{ 
+                    padding-left: 0px;
+            }
+            .resume-content > .resume-box > .left::before{
+                content: '';
+                display: none;
+                
+            }
+            .resume-content > .resume-box > .left::after{
+                content: '';
+                display: none;
+                
+            }
+            .resume-content > .resume-box > .right::before{
+                content: '';
+                display: none;
+                
+            }
+            .resume-content > .resume-box > .right::after{
+                content: '';
+                display: none;
+                
+            }
+        }
+

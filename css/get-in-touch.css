@@ -36,7 +36,7 @@
             .get-in-touch-box > form{
                 display: inline-block;
                 width: 100%;
-
+                position: relative;
             }
                 .get-in-touch-box  form > .input-container{
                     display: inline-block;
@@ -82,24 +82,7 @@
                     form:focus{
                         outline-color: none;
                     }
-                .get-in-touch-box .btn{
-                    width:100%;
-                    border:1px solid #9C27B0;
-                    background-color: #9C27B0;
-                    color:#fff;
-                    cursor: pointer;
-                    font-weight: lighter;
-                    font-size: 15px;
-                    line-height: 18px;
-                    margin-right: 10px;
-                    text-align: center;
-                    padding: 15px 35px;
-                    letter-spacing: 1.5px;
-                    display: inline-block;
-                    text-transform: uppercase;
-                    border-radius: 30px;
-                    margin-bottom: 50px;
-                }
+              
         .get-in-touch > .row .contact-info{
             position: relative;
             background: url(../img/contact.jpg);

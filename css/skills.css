@@ -1,0 +1,94 @@
+.container.skills{
+    background-color: var(--soft-background-color);
+    padding:100px 0;
+    font-family:'Montserrat, sans-serif';
+}
+    .skills > .row > h2{
+        display: inline-block;
+        font-size: 35px;
+        border-bottom: 1px solid #fff;
+        text-transform: capitalize;
+        color:#9C27B0;
+        text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+        position: relative;
+        margin-bottom: 50px;
+        font-weight:800;
+        font-family:'Montserrat', sans-serif;
+        padding-bottom: 10px;
+        margin-left: calc(50% - 118px);
+        text-align:center;
+    }
+    .skills h2 > span{
+        color:#484848;
+    }
+    .skills > .row > h2::before{
+        content: '';
+        border-bottom: 1px solid #9C27B0;
+        width: 40%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .skills .progress-bar-row,
+    .skills .progress-bar-row2{
+        overflow:hidden;
+        }
+        .skills .progress-bar-row > .progress-bar,
+        .skills .progress-bar-row2 > .progress-bar{
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .skills .progress-bar-row >.progress-bar::before,
+        .skills .progress-bar-row2 >.progress-bar::before {
+            content: "";
+            display: block;
+            position: absolute;
+            background-color: #fff;
+            border-radius: 5px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+        }
+            .skills .progress-bar >.labels {
+                display:inline-block;
+                font-size: 14px;
+                line-height: 30px;
+                text-transform: uppercase;
+                padding-bottom: 4px;
+                font-weight: 600;
+                color: #232323;   
+                }
+            .progress-bar .skill-bar {
+                width: 100%;
+                height: 5px;
+                display: block;
+                position: relative;
+                left: 0;
+                background-color: #9C27B0;
+                border-radius: 4px;
+                visibility: hidden;
+            }
+                .progress-bar .skill-bar .skill-count {
+                    position: absolute;
+                    top: 0;
+                    right: -1px;
+                    background-color: #fff;
+                    color: #9c27b0;
+                    margin-top: -15px;
+                    padding: 8px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    font-family: 'Raleway', sans-serif;
+                    border-radius: 4px;
+                    z-index: 2;
+                }
+                  .progress-bar-animation {
+                    animation: loading 3s 1;
+                }
+
+                @keyframes loading {
+                    0% {width: 0;}
+                }
