@@ -39,10 +39,12 @@ menuBtn.addEventListener('click', () => {
     if(!menuOpen) {
         menuBtn.classList.add('open');
         menuNav.classList.add('open');
+        menuNav.style.display = "flex"
         menuOpen = true;
     } else {
         menuBtn.classList.remove('open');
         menuNav.classList.remove('open');
+        menuNav.style.display = "none"
         menuOpen = false;
     }
 });
