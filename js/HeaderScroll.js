@@ -4,9 +4,10 @@ const header = document.querySelector('header');
 const navLink = document.querySelectorAll('.nav-a');
 const headerImg = document.querySelector('.nav-bar .img');
 
-window.onscroll = function() {
-    let top = window.scrollY;
+window.addEventListener("scroll", (e)=> {
 
+    let top = window.scrollY;
+    
     if (top >= 500) {
         header.classList.add('active');
 
@@ -25,13 +26,4 @@ window.onscroll = function() {
 
         headerImg.classList.remove('logo2');
     }
-
-    // if (top >=300 ) {
-    //     header.style.display="none";
-    // } 
-    // else if (top <= 50) {
-    //     header.style.display="inline-block";
-    // }
-
-}
-
+});
