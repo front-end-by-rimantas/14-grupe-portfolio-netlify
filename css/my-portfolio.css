@@ -1,0 +1,16 @@
+.gallery{
+    display:grid;
+    width:100%;
+}
+    .gallery > .filter{
+        display:grid;
+        width:100%;
+    }
+    .gallery > .list{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:30px;
+    }
+    .gallery img{
+        max-width:100%;
+    }
