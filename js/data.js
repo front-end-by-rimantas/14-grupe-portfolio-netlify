@@ -2,6 +2,10 @@
 //header
 const nav = ['home', 'about', 'services', 'portfolio', 'client', 'blog', 'contact'];
 
+  
+const heroes = ['Photographer', 'Web developer', 'UI/UX designer'];
+
+
 //progress-bar
 const skills = [
     {
@@ -40,5 +44,6 @@ const skills2 =[
         value: 95
     },
 ];
+
 
 
