@@ -45,5 +45,48 @@ const skills2 =[
     },
 ];
 
+// my-portfolio
 
+const works = [
+    {
+        photo:'1.jpg',
+        title:'Web design',
+        tags:['video']
+    },
+    {
+        photo:'2.jpg',
+        title:'Web design',
+        tags:['design']
+    },
+    {
+        photo:'3.jpg',
+        title:'Web design',
+        tags:['photo']
+    },
+    {
+        photo:'4.jpg',
+        title:'Web design',
+        tags:['design']
+    },
+    {
+        photo:'5.jpg',
+        title:'Web design',
+        tags:['photo']
+    },
+    {
+        photo:'6.jpg',
+        title:'Web design',
+        tags:['brand']
+    },
+    {
+        photo:'7.jpg',
+        title:'Web design',
+        tags:['brand']
+    },
+    {
+        photo:'8.jpg',
+        title:'Web design',
+        tags:['video']
+    },
+];
 
