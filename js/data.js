@@ -51,42 +51,50 @@ const works = [
     {
         photo:'1.jpg',
         title:'Web design',
-        tags:['video']
+        tags:['video'],
+        size:1
     },
     {
         photo:'2.jpg',
         title:'Web design',
-        tags:['design']
+        tags:['design'],
+        size:2
     },
     {
         photo:'3.jpg',
         title:'Web design',
-        tags:['photo']
+        tags:['photo'],
+        size:3
     },
     {
         photo:'4.jpg',
         title:'Web design',
-        tags:['design']
+        tags:['design'],
+        size:4
     },
     {
         photo:'5.jpg',
         title:'Web design',
-        tags:['photo']
+        tags:['photo'],
+        size:5
     },
     {
         photo:'6.jpg',
         title:'Web design',
-        tags:['brand']
+        tags:['brand'],
+        size:6
     },
     {
         photo:'7.jpg',
         title:'Web design',
-        tags:['brand']
+        tags:['brand'],
+        size:7
     },
     {
         photo:'8.jpg',
         title:'Web design',
-        tags:['video']
+        tags:['video'],
+        size:8
     },
 ];
 

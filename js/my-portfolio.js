@@ -15,7 +15,7 @@ function renderPortfolio(list){
 
     for(let i=0; i<list.length;i++){
         const work=list[i];
-        galleryHTML += `<div class="item">
+        galleryHTML += `<div class="item size-${work.size}">
                             <img src="./img/portfolio/${work.photo}" alt="${work.photo.alt}">
                         </div>`;
 
