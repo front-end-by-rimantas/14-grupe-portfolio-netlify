@@ -18,7 +18,19 @@ function renderPortfolio(list){
         galleryHTML += `<div class="item size-${work.size}">
                             <img src="./img/portfolio/${work.photo}" alt="${work.title}">
                             <div class="hover"> 
-                                <a href = "${work.link}">${work.title}</a>
+                                <div class = "text">
+                                    <p>${work.title}</p>
+                                    <span class = "icon-1">
+                                        <a href= "#">
+                                        <i class=" fa ${work.icon1}" ></i>
+                                        </a>
+                                    </span>
+                                    <span class = "icon-2">
+                                        <a href= "./img/portfolio/${work.photo}">
+                                        <i class="fa ${work.icon2}"></i>
+                                        </a>
+                                    </span>
+                                </div>
                             </div>
                         </div>`;
 

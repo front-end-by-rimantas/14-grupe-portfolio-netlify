@@ -53,56 +53,72 @@ const works = [
         title:'Web design',
         link:'#',
         tags:['video'],
-        size:1
+        size:1,
+        icon1:'fa-link',
+        icon2:'fa-plus'
     },
     {
         photo:'2.jpg',
         title:'Web design',
         link:'#',
         tags:['design'],
-        size:2
+        size:2,
+        icon1:'fa-link',
+        icon2:'fa-plus'
     },
     {
         photo:'3.jpg',
         title:'Web design',
         link:'#',
         tags:['photo'],
-        size:3
+        size:3,
+        icon1:'fa-link',
+        icon2:'fa-plus'
     },
     {
         photo:'4.jpg',
         title:'Web design',
         link:'#',
         tags:['design'],
-        size:4
+        size:4,
+        icon1:'fa-link',
+        icon2:'fa-plus'
     },
     {
         photo:'5.jpg',
         title:'Web design',
         link:'#',
         tags:['photo'],
-        size:5
+        size:5,
+        icon1:'fa-link',
+        icon2:'fa-plus'
     },
     {
         photo:'6.jpg',
         title:'Web design',
         link:'#',
         tags:['brand'],
-        size:6
+        size:6,
+        icon1:'fa-link',
+        icon2:'fa-plus'
     },
     {
         photo:'7.jpg',
         title:'Web design',
         link:'#',
         tags:['brand'],
-        size:7
+        size:7,
+        icon1:'fa-link',
+        icon2:'fa-plus'
     },
     {
         photo:'8.jpg',
         title:'Web design',
         link:'#',
         tags:['video'],
-        size:8
+        size:8,
+        icon1:'fa-link',
+        icon2:'fa-plus'
     },
 ];
 
