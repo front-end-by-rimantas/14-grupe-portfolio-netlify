@@ -20,6 +20,9 @@
         border: 1px solid #f4f5f8;
         border-radius: 4px;
     }
+        .gallery > .list > .item{
+            position:relative;
+        }
         .gallery > .list > .item.size-1{
             grid-column-start: 1;
             grid-column-end: 3;
@@ -68,6 +71,61 @@
                 grid-row-start: 8;
                 grid-row-end: 12;  
             }
+
+            .gallery .item >.hover {
+                display:inline-block;
+                position: absolute;
+                top: 15px;
+                left: 15px;
+                right: 15px;
+                bottom: 15px;
+                border-radius: 4px;
+                background: rgba(255, 255, 255, 0.9);
+                border: 1px solid #f7f7f7;
+                opacity: 0;
+                overflow: hidden;
+                -webkit-transition: all .5s;
+                transition: all .5s;
+                color: #fff;
+                z-index: 1;
+            }
+            .gallery .item >.hover:after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 170%;
+                    width: 100%;
+                    height: 100%;
+                    border: 1px solid var(--main-color);
+                    background: rgba(0,0,0,.1);
+                    transform: skewX(45deg);
+                    transition: all 1s;
+                    z-index: -1;
+                  }
+                  .gallery .item >.hover:hover:after {
+                    top: 0;
+                    left: -170%;
+                  }
+                    .gallery .item >.hover:hover {
+                        opacity:1;
+                    }
+                    .gallery .item >.hover > a {
+                        display:inline-block;
+                        position:absolute;
+                        top:50%;
+                        left:50%;
+                        transform:translate(-50%, -50%);
+                        overflow:hidden;
+                        color:#111;
+                        font-size: 20px;
+                        line-height:20px;
+                        font-weight:900;
+                        text-decoration: none;
+                        text-transform: uppercase;        
+                        transition: all .5s;
+                        margin-bottom:20px;
+                        font-family: 'Montserrat', sans-serif;
+                    }    
             /* responsive */
             @media(max-width:900px){
                 .gallery > .list{
