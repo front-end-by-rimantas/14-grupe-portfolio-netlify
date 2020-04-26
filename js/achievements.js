@@ -62,7 +62,7 @@ function renderData( numberList ) {
         renderData( data );
 
         window.addEventListener('scroll', ()=>{
-            if(window.pageYOffset > 2040){
+            if(window.pageYOffset > 2080){
     achievementCounter('#data');
 }
 });
