@@ -10,7 +10,7 @@
     text-align: center;
 }
 
-.achievements-box:hover .simbol{
+.achievements-box:hover > .simbol{
     font-size: 37px;
 }
     .achievements-box > .simbol{
