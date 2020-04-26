@@ -47,6 +47,7 @@ const skills2 =[
 
 // my-portfolio
 
+
 const works = [
     {
         photo:'1.jpg',
