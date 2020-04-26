@@ -34,7 +34,6 @@
         font-weight: bold;
         width: 100%;
     }
-
     .number:hover ~ .simbol {
         background-color: red;
         color: white;
@@ -51,3 +50,5 @@
         text-transform: uppercase;
         width: 100%;
     }
+    
+   

@@ -46,4 +46,3 @@ const skills2 =[
 ];
 
 
-
