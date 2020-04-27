@@ -90,7 +90,7 @@ const works = [
         title:'Web design',
         link:'#',
         tags:['photo'],
-        size:5,
+        size:6,
         icon1:'fa-link',
         icon2:'fa-plus'
     },
@@ -99,7 +99,7 @@ const works = [
         title:'Web design',
         link:'#',
         tags:['brand'],
-        size:6,
+        size:5,
         icon1:'fa-link',
         icon2:'fa-plus'
     },
@@ -122,4 +122,5 @@ const works = [
         icon2:'fa-plus'
     },
 ];
+
 
