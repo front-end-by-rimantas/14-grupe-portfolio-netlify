@@ -129,34 +129,13 @@
             </div>
         </div>
         <!-- ACHIEVEMENTS -->
-        <div class="container achievements">
+        <div class=" container achievements" >
             <div class="row">
-                <div class="achievements-box col-3 col-sm-6">
-                    <div class="simbol"><i class="fa fa-heart"></i></div>
-                    <div class="number">738</div>
-                    <div class="text">Happy clients</div>
-                </div>
-
-                <div class="achievements-box col-3 col-sm-6">
-                    <div class="simbol"><i class="fa fa-check-square-o"></i></div>
-                    <div class="number">102</div>
-                    <div class="text">Succesful projects</div>
-                    </div>
-
-                <div class="achievements-box col-3 col-sm-6">
-                    <div class="simbol"><i class="fa fa-trophy"></i></div>
-                    <div class="number">06</div>
-                    <div class="text">Award Recieved</div>
-                    </div>
-                    
-                <div class="achievements-box col-3 col-sm-6">
-                    <div class="simbol"><i class="fa fa-coffee"></i></div>
-                    <div class="number">511</div>
-                    <div class="text">Cups of Tea</div>
-                    </div>
+                <div class="row col-12" id="data" data-animated_numbers=".achievements-box > .number">
+                    NUMBERS
                 </div>
             </div>
-        </div>
+        </div>  
         <!-- SERVICES -->
         <div id="services" class="container services">
             <div class="row">
@@ -197,7 +176,15 @@
         </div>
         <!-- PORTFOLIO -->
         <div id="portfolio" class="container portfolio">
-            <div class="row">Portfolio</div>
+            <div class="row">
+                <h2>My <span>portfolio</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-12" id="portfolio-gallery">
+                    FILTER
+                    PORTFOLIO
+                </div>
+            </div>
         </div>
         <!-- REVIEWS -->
         <div id="client" class="container reviews">
@@ -338,10 +325,13 @@
         </footer>
 
         <script src="./js/data.js"></script>
+        <script src="./js/achievements-data.js"></script>
         <script src="./js/heroes.js"></script>
         <script src="./js/header.js"></script>
         <script src="./js/HeaderScroll.js"></script>
+        <script src="./js/achievements.js"></script>
         <script src="./js/reviews.js"></script>
         <script src="./js/progress-bar.js"></script>
+        <script src="./js/my-portfolio.js"></script>
 </body>
 </html>
